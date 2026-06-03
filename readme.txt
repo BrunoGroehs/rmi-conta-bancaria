@@ -1,8 +1,19 @@
 Aplicacao RMI - Conta Bancaria
 
-Compilar:
+Arquivos:
+- ContaBancaria.java     (interface remota)
+- ContaBancariaImpl.java (implementacao)
+- Servidor.java          (servidor)
+- Cliente.java           (cliente)
+
+Como compilar:
     javac *.java
 
-Rodar (dois terminais):
-    java Servidor
-    java Cliente
+Como executar:
+    Terminal 1 (servidor):
+        java Servidor
+
+    Terminal 2 (cliente):
+        java Cliente
+
+Obs: iniciar o servidor antes do cliente.
